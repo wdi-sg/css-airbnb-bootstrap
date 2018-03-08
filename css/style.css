@@ -6,7 +6,7 @@ body {
 }
 button {
   text-align: center;
-  width: 100%;
+  width: 20rem;
   background: white;
   border: 1px solid #cfcfcf;
   border-radius: 3px;
@@ -42,14 +42,32 @@ span {
 .row:first-of-type {
   margin-top: 20px;
 }
+
 .box {
   width: 100%;
-  margin: 0 15px 20px 15px;
+  margin: 20px auto;
   background-size: cover;
   background-position: center;
-  height: 20vh;
   position: relative;
+  flex: 1 1 auto;
+  box-shadow: 0 0 5px 5px #edefec inset;
 }
+
+.destination-label {
+  line-height: 200px;
+  transform:rotate(-25deg);
+  text-shadow:4px 3px black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  margin-top: 10px;
+  font-weight: 800;
+}
+
 #box1 {
   background-image: url("../img/san-francisco.jpg");
 }
@@ -67,4 +85,10 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+@media (min-width: 900px) {
+  .box {
+    max-width: 200px;
+  }
 }
