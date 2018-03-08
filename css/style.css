@@ -23,11 +23,13 @@ button:hover {
 h3 {
   font-weight: bold;
   margin-bottom: 0.7em;
+  text-align: center;
 }
 p {
   font-size: 0.9em;
   font-weight: 600;
   margin: -13px auto 25px auto;
+  text-align: center;
 }
 span {
   display: block;
@@ -47,7 +49,7 @@ span {
   margin: 0 15px 20px 15px;
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 250px;
   position: relative;
 }
 #box1 {
