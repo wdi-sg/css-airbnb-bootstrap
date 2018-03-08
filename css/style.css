@@ -14,7 +14,7 @@ button {
   font-size: 0.8em;
   font-weight: 500;
   padding: 5px 0;
-  margin: 0 auto 18px auto;
+  margin: 18px auto 18px auto;
 }
 button:hover {
   background: #eeeeee;
@@ -43,13 +43,15 @@ span {
   margin-top: 20px;
 }
 .box {
-  width: 100%;
-  margin: 0 15px 20px 15px;
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  position: relative;
+  width: 200px;
+  padding: 0;
 }
+
+
+.container {
+  width: 700px;
+}
+
 #box1 {
   background-image: url("../img/san-francisco.jpg");
 }
@@ -67,4 +69,12 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6 {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  margin: 0 auto;
 }
