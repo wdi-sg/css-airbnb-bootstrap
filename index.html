@@ -3,18 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>css-airbnb mockup</title>
+
+  <title>css-airbnb-bootstrap mockup</title>
 </head>
 
 <body>
+  <!-- Top Container for Guidebooks -->
   <div class="container">
-    <!-- Write your code here -->
+    <!-- First Row - Header and Introduction -->
     <div class="row">
-      <div class="col"></div>
+      <div class="col-12 col-sm-12">
+        <h3>Meet Guidebooks</h3>
+        <p>Discover hundreds of local spots recommended by Airbnb hosts</p>
+      </div>
+    </div>
+
+    <!-- Second Row - Images of guidebooks -->
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div id="box1" class="col-11 col-sm-3 box">
+        <span>San Francisco</span>
+      </div>
+      <div id="box2" class="col-11 col-sm-3 box">
+        <span>New York</span>
+      </div>
+      <div id="box3" class="col-11 col-sm-3 box">
+        <span>London</span>
+      </div>
+      <div class="col-sm-1"> </div>
+    </div>
+
+    <!-- Third Row - See All Guidebook button -->
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-12 col-sm-4">
+        <button>See All Guidebooks</button>
+      </div>
+      <div class="col-sm-4"></div>
     </div>
   </div>
+
+  <!-- Bottom Container for Destinations -->
+  <div class="container">
+    <!-- First Row -->
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <h3>Just for the weekend</h3>
+        <p>Discover new, inspiring places close to home.</p>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div id="box4" class="col-11 col-sm-3 box">
+        <span>Napa</span>
+      </div>
+      <div id="box5" class="col-11 col-sm-3 box">
+        <span>Sonoma</span>
+      </div>
+      <div id="box6" class="col-11 col-sm-3 box">
+        <span>San Francisco</span>
+      </div>
+      <div class="col-sm-1"> </div>
+    </div>
+
+    <!-- Third Row - See All Destinations button -->
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-12 col-sm-4">
+        <button>See All Destinations</button>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+
 </body>
 </html>
