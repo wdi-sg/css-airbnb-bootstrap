@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>css-airbnb mockup</title>
 </head>
@@ -12,9 +13,78 @@
 <body>
   <div class="container">
     <!-- Write your code here -->
-    <div class="row">
-      <div class="col"></div>
+    <div class="text-center">
+      <h3>Meet Guidebooks</h3>
+      <p>Discover hundreds of local spots recommended by Airbnb hosts</p>
     </div>
-  </div>
+
+    <div class="row">
+      <div class="box col-md-3 col-sm-12" id="box1">
+        <h3><span>San Francisco</span></h3>
+      </div>
+      <div class="box col-md-3 col-sm-12" id="box2">
+        <h3><span>New York</span></h3>
+      </div>
+      <div class="box col-md-3 col-sm-12" id="box3">
+        <h3><span>London</span></h3>
+      </div>
+    </div>
+    <div class="text-center">
+      <button id="guidebooks">See All Guidebooks</button>
+    </div>
+
+    <div class="text-center">
+      <h3>Just for the weekend</h3>
+      <p>Discover new, inspiring places close to home</p>
+    </div>
+
+    <div class="row">
+      <div class="box col-md-3 col-sm-12" id="box4">
+        <h3><span>Napa</span></h3>
+      </div>
+      <div class="box col-md-3 col-sm-12" id="box5">
+        <h3><span>Sonoma</span></h3>
+      </div>
+      <div class="box col-md-3 col-sm-12" id="box6">
+        <h3><span>San Francisco</span></h3>
+      </div>
+    </div>
+    <div class="text-center">
+      <button id="destination">See All Destinations</button>
+    </div>
+
+    <script>
+      document.querySelector("#guidebooks").addEventListener("click", () => {
+        alert("This feature is not done yet.")
+      })
+
+      document.querySelector("#destination").addEventListener("click", () => {
+        alert("This feature is not done yet.")
+      })
+
+      document.getElementById("box1").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/San+Francisco,+CA,+USA/@37.7576792,-122.5078108,12z/data=!3m1!4b1!4m5!3m4!1s0x80859a6d00690021:0x4a501367f076adff!8m2!3d37.7749295!4d-122.4194155?hl=en")
+      })
+
+      document.getElementById("box2").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/New+York,+NY,+USA/@40.6971478,-74.2605381,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728?hl=en")
+      })
+
+      document.getElementById("box3").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/London,+UK/@51.5285578,-0.2420215,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583?hl=en")
+      })
+
+      document.getElementById("box4").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/Napa,+CA,+USA/@38.2859416,-122.3601692,12z/data=!3m1!4b1!4m5!3m4!1s0x8084ffe7f8f2deef:0xd6629f3a3384c725!8m2!3d38.2975381!4d-122.286865?hl=en")
+      })
+
+      document.getElementById("box5").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/Sonoma,+CA+95476,+USA/@38.291092,-122.4666091,14z/data=!3m1!4b1!4m5!3m4!1s0x8085ac43817b9d77:0x380ed210ee6e045!8m2!3d38.291859!4d-122.4580356?hl=en")
+      })
+
+      document.getElementById("box6").addEventListener("click", () => {
+        window.open("https://www.google.com.sg/maps/place/San+Francisco,+CA,+USA/@37.7576792,-122.5078108,12z/data=!3m1!4b1!4m5!3m4!1s0x80859a6d00690021:0x4a501367f076adff!8m2!3d37.7749295!4d-122.4194155?hl=en")
+      })
+    </script>
 </body>
 </html>
