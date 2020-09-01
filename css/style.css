@@ -4,9 +4,10 @@ body {
   background-color: #edefec;
   font-size: 16px;
 }
+
 button {
   text-align: center;
-  width: 100%;
+  width: 25%;
   background: white;
   border: 1px solid #cfcfcf;
   border-radius: 3px;
@@ -14,8 +15,10 @@ button {
   font-size: 0.8em;
   font-weight: 500;
   padding: 5px 0;
-  margin: 0 auto 18px auto;
+  height: 40px;
+  margin-bottom: 20px;
 }
+
 button:hover {
   background: #eeeeee;
   border: 1px solid grey;
@@ -23,15 +26,15 @@ button:hover {
 h3 {
   font-weight: bold;
   margin-bottom: 0.7em;
+
 }
 p {
   font-size: 0.9em;
   font-weight: 600;
   margin: -13px auto 25px auto;
 }
+
 span {
-  display: block;
-  position: relative;
   top: 46%;
   color: white;
   font-weight: bold;
@@ -39,17 +42,22 @@ span {
   text-align: center;
 }
 
-.row:first-of-type {
-  margin-top: 20px;
+.row {
+  display: flex;
+  justify-content: center;
+
 }
+
 .box {
-  width: 100%;
   margin: 0 15px 20px 15px;
   background-size: cover;
   background-position: center;
-  height: 20vh;
-  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 #box1 {
   background-image: url("../img/san-francisco.jpg");
 }
@@ -67,4 +75,8 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+.text-center {
+  margin-top: 30px;
 }
