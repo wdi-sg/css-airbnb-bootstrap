@@ -68,3 +68,25 @@ span {
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
 }
+
+
+img {
+	width:100%;
+}
+
+button {
+	width: 100%;
+	margin-top: 10%;
+}
+
+.section1 {
+	margin-top:10%;
+}
+
+.section2 {
+	margin-top:5%;
+}
+
+.carousel-caption{
+	font-size: 20px;
+}
