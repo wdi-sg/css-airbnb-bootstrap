@@ -6,19 +6,24 @@ body {
 }
 button {
   text-align: center;
-  width: 100%;
+  width: 50%;
   background: white;
   border: 1px solid #cfcfcf;
   border-radius: 3px;
   color: #57595c;
   font-size: 0.8em;
   font-weight: 500;
-  padding: 5px 0;
-  margin: 0 auto 18px auto;
+  margin: 0 20px 0 20px;
 }
 button:hover {
   background: #eeeeee;
   border: 1px solid grey;
+}
+
+.box:hover{
+    opacity:0.7;
+    border:1px solid white;
+    cursor:pointer;
 }
 h3 {
   font-weight: bold;
@@ -43,12 +48,15 @@ span {
   margin-top: 20px;
 }
 .box {
-  width: 100%;
-  margin: 0 15px 20px 15px;
+  margin: 0 10px 20px 15px;
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 240px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 #box1 {
   background-image: url("../img/san-francisco.jpg");
@@ -67,4 +75,26 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+.guidebooks{
+
+    padding:20px;
+}
+
+.btn{
+    border: 1px solid black;
+    margin: 0 20px 20px 6vw;
+}
+
+.row{
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttonn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

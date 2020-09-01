@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>css-airbnb mockup</title>
 </head>
@@ -12,9 +12,44 @@
 <body>
   <div class="container">
     <!-- Write your code here -->
+
+<div class="text-center guidebooks">
+    <h3>Meet Guidebooks</h3>
+    <p>Discover hundreds of local spots recommended by Airbnb hosts</p>
+</div>
+
+
     <div class="row">
-      <div class="col"></div>
+         <div class="box col-md-3 col-xs-12" id="box1">
+        <h5 class="text-center">San Francisco</h5>
+      </div>
+       <div class="box col-md-3 col-xs-12" id="box2">
+        <h5 class="text-center">New York</h5>
+      </div>
+       <div class="box col-md-3 col-xs-12" id="box3">
+        <h5 class="text-center">London</h5>
+      </div>
     </div>
+    <div class="row text-center"><button type="button" class="btn btn-default " id="guide">See All Guidebooks</button></div>
+
+    <div class="text-center guidebooks">
+    <h3>Just for the weekend</h3>
+    <p>Discovering new, inspiring places close to home.</p>
+</div>
+
+<div class="row">
+         <div class="box col-md-3 col-xs-12" id="box4">
+        <h5 class="text-center">Napa</h5>
+      </div>
+       <div class="box col-md-3 col-xs-12" id="box5">
+        <h5 class="text-center">Sonoma</h5>
+      </div>
+       <div class="box col-md-3 col-xs-12" id="box6">
+        <h5 class="text-center">San Francisco</h5>
+      </div>
+    </div>
+<div class="row"><button type="button" class="btn btn-default" id="dest">See All Destinations</button></div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
